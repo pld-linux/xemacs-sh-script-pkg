@@ -2,7 +2,7 @@ Summary:	Support for editing shell scripts
 Summary(pl):	Wsparcie dla edycji skryptów pow³oki
 Name:		xemacs-sh-script-pkg
 %define 	srcname	sh-script
-Version:	1.15
+Version:	1.16
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
