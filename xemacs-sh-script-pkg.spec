@@ -17,7 +17,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Support for editing shell scripts.
 
-%description -l pl 
+%description -l pl
 Wsparcie dla edycji skryptów pow³oki.
 
 %prep
@@ -29,13 +29,13 @@ install -d $RPM_BUILD_ROOT%{_datadir}/xemacs-packages
 
 cp -a * $RPM_BUILD_ROOT%{_datadir}/xemacs-packages
 
-gzip -9nf lisp/sh-script/ChangeLog 
+gzip -9nf lisp/sh-script/ChangeLog
 
 %clean
 rm -fr $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc lisp/sh-script/ChangeLog.gz 
+%doc lisp/sh-script/ChangeLog.gz
 %dir %{_datadir}/xemacs-packages/lisp/*
 %{_datadir}/xemacs-packages/lisp/*/*.elc
