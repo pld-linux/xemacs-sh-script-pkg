@@ -1,5 +1,5 @@
 Summary:	Support for editing shell scripts
-Summary(pl.UTF-8):   Wsparcie dla edycji skryptów powłoki
+Summary(pl.UTF-8):	Wsparcie dla edycji skryptów powłoki
 Name:		xemacs-sh-script-pkg
 %define 	srcname	sh-script
 Version:	1.18
