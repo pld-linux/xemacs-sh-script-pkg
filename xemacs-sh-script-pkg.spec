@@ -1,5 +1,5 @@
 Summary:	Support for editing shell scripts
-Summary(pl):	Wsparcie dla edycji skryptÛw pow≥oki
+Summary(pl.UTF-8):   Wsparcie dla edycji skrypt√≥w pow≈Çoki
 Name:		xemacs-sh-script-pkg
 %define 	srcname	sh-script
 Version:	1.18
@@ -18,8 +18,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Support for editing shell scripts.
 
-%description -l pl
-Wsparcie dla edycji skryptÛw pow≥oki.
+%description -l pl.UTF-8
+Wsparcie dla edycji skrypt√≥w pow≈Çoki.
 
 %prep
 %setup -q -c
