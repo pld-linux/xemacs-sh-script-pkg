@@ -6,7 +6,7 @@ Version:	1.18
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
-Source0:	ftp://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
+Source0:	http://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
 # Source0-md5:	4a0e2de6d1006c987dfd9e861b8562cd
 URL:		http://www.xemacs.org/
 BuildArch:	noarch
