@@ -3,7 +3,7 @@ Summary(pl.UTF-8):	Wsparcie dla edycji skryptów powłoki
 Name:		xemacs-sh-script-pkg
 %define 	srcname	sh-script
 Version:	1.18
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Editors/Emacs
 Source0:	http://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
